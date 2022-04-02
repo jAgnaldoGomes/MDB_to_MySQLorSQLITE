@@ -1,12 +1,7 @@
 # MDB to MySQL or SQLITE(3)
 
-Cria um arquivo ( .sqlite ou script mysql ) a partir de um mdb ( 2003 a 2019 )
 
-
-Histórico
----------
-
-Em 01/04/2022 <a href="https://github.com/jAgnaldoGomes/MDB_to_MySQLorSQLITE/tree/v3.0401">v3.22.0401</a>
+Em 01/04/2022
 
 -	implementado *dialog de entrada* para:
 -	seleção do tipo de procedimento<br>
