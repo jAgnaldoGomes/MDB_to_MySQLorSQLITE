@@ -14,5 +14,5 @@ Em 01/04/2022 <a href="https://github.com/jAgnaldoGomes/MDB_to_MySQLorSQLITE/tre
 -	implementado *formulário de seleção* para:
 > - marcação das tabelas que desejar no procedimento.<br>
 > - marcação das consultas que desejar no procedimento.<br>
->as consultas que não forem possíveis de gerar VIEWs, serão listadas no 
-log de execução do aplicativo, assim como também os erros encontrados.
+>caso haja alguma consulta que não for possível gerar a VIEW correspondente, <br>será listada no log de execução do aplicativo, com instruções para ajustes,<br>
+>assim como também os erros encontrados durante a execução.
