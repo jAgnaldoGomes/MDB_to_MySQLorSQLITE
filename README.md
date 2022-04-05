@@ -5,10 +5,12 @@ Cria um arquivo ( .sqlite ou script mysql ) a partir de um mdb ( 2003 a 2019 )
 Histórico
 ---------
 
-Em 05/042022 <a href="https://github.com/jAgnaldoGomes/MDB_to_MySQLorSQLITE/tree/v3.0401">v3.22.0405</a>
+Em 05/042022 `v3.22.0405`
 - Eliminada a geração do arquivo .sqlite quando a opção for MySQL script.
+- Melhorias na codificação com a eliminação de objetos obsoletos / não utilizados.
+- Ajustada a lógica de acesso aos objetos do mdb selecionado.
 
-Em 01/04/2022 <a href="https://github.com/jAgnaldoGomes/MDB_to_MySQLorSQLITE/tree/v3.0401">v3.22.0401</a>
+Em 01/04/2022 `v3.22.0401`
 
 -	implementado *dialog de entrada* para:
 -	seleção do tipo de procedimento<br>
