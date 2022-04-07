@@ -4,6 +4,10 @@ Cria um arquivo ( .sqlite ou script mysql ) a partir de um mdb ( 2003 a 2019 )
 
 Histórico
 ---------
+Em 06/04/2022 `v3.22.0406`
+- Eliminação de objetos obsoletos / não utilizados.
+- Adicionados checkbox para listar tabelas / consultas, conforme a necessidade.
+- Adicionado checkbox para listar log de verificações efetuadas no script.
 
 Em 05/042022 `v3.22.0405`
 - Eliminada a geração do arquivo .sqlite quando a opção for MySQL script.
@@ -13,7 +17,7 @@ Em 05/042022 `v3.22.0405`
 Em 01/04/2022 `v3.22.0401`
 
 -	implementado *dialog de entrada* para:
--	seleção do tipo de procedimento<br>
+> -	seleção do tipo de procedimento<br>
 ![f001](https://github.com/jAgnaldoGomes/images/blob/main/Mdb2SQLite/f002.jpg)<br>
 > - seleção do arquivo MDB de entrada.<br>
 ![f001](https://github.com/jAgnaldoGomes/images/blob/main/Mdb2SQLite/f001.jpg)<br>
