@@ -4,6 +4,10 @@ Cria um arquivo ( .sqlite ou script mysql ) a partir de um mdb ( 2003 a 2019 )
 
 Histórico
 ---------
+Em 08/04/2022 `v3.22.0408`
+- Correção na criação de VALOR DEFAULT para os diversos tipos de DataType, uma vez que:
+ Colunas do tipo BLOB, TEXT, GEOMETRY ou JSON não podem ter VALOR DEFAULT.
+ 
 Em 06/04/2022 `v3.22.0406`
 - Eliminação de objetos obsoletos / não utilizados.
 - Adicionados checkbox para listar tabelas / consultas, conforme a necessidade.
