@@ -1,9 +1,16 @@
 # MDB to MySQL or SQLITE(3)
 
-Cria um arquivo ( .sqlite ou script mysql ) a partir de um mdb ( 2003 a 2019 )
+Cria um arquivo ( .sqlite ou script mysql ) a partir de um mdb ( testado no MsAccess 2003 a 2019 )
 
 Histórico
 ---------
+Em 06/06/2022 `v3.22.0606`
+- Ajustes no formulário de seleção de objetos/formulário inicial.
+
+Em 28/05/2022 `v3.22.0528`
+- Adicionado formulário para edição da sentença da query antes de salvar o processo.<br>
+ Formulário este que será acessado pressionando o CTRL e clicando na lista de consultas do referido mdb.
+
 Em 08/04/2022 `v3.22.0408`
 - Correção na criação de VALOR DEFAULT para os diversos tipos de DataType, uma vez que:
  Colunas do tipo BLOB, TEXT, GEOMETRY ou JSON não podem ter VALOR DEFAULT.
@@ -19,7 +26,6 @@ Em 05/042022 `v3.22.0405`
 - Ajustada a lógica de acesso aos objetos do mdb selecionado.
 
 Em 01/04/2022 `v3.22.0401`
-
 -	implementado *dialog de entrada* para:
 > -	seleção do tipo de procedimento<br>
 ![f001](https://github.com/jAgnaldoGomes/images/blob/main/Mdb2SQLite/f002.jpg)<br>
