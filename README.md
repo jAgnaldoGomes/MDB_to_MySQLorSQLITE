@@ -4,6 +4,10 @@ Cria um arquivo ( .sqlite ou script mysql ) a partir de um mdb ( testado no MsAc
 
 Histórico
 ---------
+
+Em 02/02/2024 `v3.24.0202`
+- Ajustes na criação do script.
+
 Em 06/06/2022 `v3.22.0606`
 - Ajustes no formulário de seleção de objetos/formulário inicial.
 
